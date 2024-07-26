@@ -1,0 +1,36 @@
+.navbar {
+    background-color: #f5f0eb; /* Light Cream */
+    border-bottom: 2px solid #ff9f43; /* Orange Border */
+  }
+  
+  .navbar-brand {
+    color: #ff6363; /* Red */
+    font-weight: bold;
+  }
+  
+  .nav-link {
+    color: #3498db; /* Blue */
+  }
+  
+  .btn-primary {
+    background-color: #ff9f43; /* Orange */
+    border-color: #ff9f43;
+  }
+  
+  .btn-primary:hover {
+    background-color: #e68a39; /* Darker Orange */
+    border-color: #e68a39;
+  }
+  /* Custom CSS for the carousel */
+#charityCarousel {
+    height: 76vh;
+}
+
+#charityCarousel .carousel-inner {
+    height: 100%;
+}
+
+#charityCarousel .carousel-item img {
+    height: 76vh;
+    object-fit: cover;
+}
